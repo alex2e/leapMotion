@@ -556,8 +556,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   useHover: 1
   userPrimaryHover: 1
-  defaultColor: {r: 0.1, g: 0.1, b: 0.1, a: 1}
-  hoverColor: {r: 0.7, g: 0.7, b: 0.7, a: 1}
+  defaultColor: {r: 1, g: 0, b: 0, a: 1}
+  hoverColor: {r: 0.7019608, g: 0.7019608, b: 0.209, a: 1}
   primaryHoverColor: {r: 0.8, g: 0.8, b: 0.8, a: 1}
   smoothColor: 5
 --- !u!1001 &1547623912
@@ -1270,6 +1270,7 @@ GameObject:
   - component: {fileID: 2089370555}
   - component: {fileID: 2089370554}
   - component: {fileID: 2089370559}
+  - component: {fileID: 2089370560}
   m_Layer: 0
   m_Name: Sphere
   m_TagString: Untagged
@@ -1388,3 +1389,20 @@ MonoBehaviour:
     layerIndex: 0
   _eventTable:
     _entries: []
+--- !u!114 &2089370560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2089370553}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62bf0df5edb8c58439ad5477246a9e14, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  useHover: 1
+  userPrimaryHover: 1
+  defaultColor: {r: 0, g: 0, b: 1, a: 1}
+  hoverColor: {r: 0.7, g: 0.7, b: 0.7, a: 0.7019608}
+  primaryHoverColor: {r: 0.8, g: 0.8, b: 0.8, a: 1}
+  smoothColor: 5
